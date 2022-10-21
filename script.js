@@ -18,3 +18,7 @@ Array.from(buttons).forEach((button)=>{
       }
   })
 })
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
